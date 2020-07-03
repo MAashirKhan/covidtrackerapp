@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url("../src/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .header{
     width: 100%;
     height: max-content;
