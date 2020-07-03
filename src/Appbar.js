@@ -4,12 +4,12 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 
 // importing Logo
-import logo from './Covid19 Tracker.png';
+import logo from './Covid19-Tracker.svg';
 
 // import App.css
 import './App.css'
 
-const useStyles = makeStyles( (theme) => ({
+const useStyles = makeStyles( () => ({
   root: {
     flexGrow: 1,
   },
@@ -25,7 +25,7 @@ export default function Appbar() {
     <div className={classes.root}>
       <AppBar position="static" style={
           {
-          backgroundColor: "rgba(0,0,0,0.6)",
+          backgroundColor: "rgba(0,0,0,0.7)",
           alignItems: "center",
           }
         }>

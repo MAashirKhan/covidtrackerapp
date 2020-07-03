@@ -3,21 +3,17 @@
     padding: 0;
 }
 body{
-    background-image: url("../src/bg.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.header{
-    width: 100%;
-    height: max-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(7, 7, 7);
+    background: url("../src/bg.jpg") no-repeat rgba(0, 0, 0, 0.6);
+    background-size: 50vh 40px 50vh;
+
 }
 .covidlogo{
     margin: 5px;
     width: 110px;
     height: 110px;
     border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 8px 8px 20px 5px rgba(2,161,124,0.28);
+    -moz-box-shadow: 8px 8px 20px 5px rgba(2,161,124,0.28);
+    box-shadow: 8px 8px 20px 5px rgba(2,161,124,0.28);
 }
