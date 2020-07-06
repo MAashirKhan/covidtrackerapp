@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
         <div>
             <Header />
-            <Cards />
+            <Cards data={data} />
             <CountryPicker />
             <Chart />
         </div>
