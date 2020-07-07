@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 //Importing Components
 import Header from './Components/header'
 import Cards from './Components/Cards/Cards'
@@ -7,7 +6,7 @@ import Chart from './Components/Charts/Charts'
 import CountryPicker from './Components/CountryPicker/CountryPicker'
 import { fetchData }  from './API/'
 
-class App extends React.Component {
+class App extends React.Component{
     state = {
         data: {}
     }

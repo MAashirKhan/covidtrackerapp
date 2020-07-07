@@ -24,8 +24,12 @@ export default function Appbar() {
   return (
     <div className={classes.root}>
       <AppBar position="static" spacing={3} style={{
-        backgroundColor: "rgba(0,0,0, 0.6)",
+        backgroundColor: "rgba(255,255,255, 0.6)",
         alignItems: "center",
+        borderBottom: "2px solid black",
+        borderBottomLeftRadius: 25,
+        borderBottomRightRadius: 25,
+        boxShadow: "0 0 10px #000000",
       }}>
         <Toolbar >
                 <img className="covidlogo" src={logo} alt="CovidLogo"/>
