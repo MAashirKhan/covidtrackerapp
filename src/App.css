@@ -4,21 +4,19 @@
 }
 body{
     width: auto;
-    background: #97e2f1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #007991,#78ffd6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,  #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background-image: url('../src/bg.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .covidlogo{
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-top: 5px;
     margin-bottom: 5px;
     border: 2px solid black;
-    background-color: rgb(50, 189, 156);
-    -webkit-box-shadow: 8px 8px 20px 5px rgba(2,161,124,0.28);
+    background-color: rgb(39, 177, 170);
+    -webkit-box-shadow: 8px 8px 20px 5px rgba(29, 173, 140, 0.28);
     -moz-box-shadow: 8px 8px 20px 5px rgba(2,161,124,0.28);
     box-shadow: 8px 8px 20px 5px rgba(2,161,124,0.28);
 }
@@ -26,22 +24,21 @@ body{
     margin: 50px 0;
 }
 .card{
-    border: black;
-    border-radius: 20px;
     margin: 0 2% !important;
     
   }
   
   .infected {
-    border-bottom: 10px solid rgba(5, 5, 97, 0.5);
+    border: 4px solid rgb(0, 0, 0);
+    
   }
   
   .recovered{
-    border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+    border: 4px solid rgb(0, 0, 0);
   }
   
   .deaths{
-    border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+    border: 4px solid rgb(0, 0, 0);
   }
 @media only screen and (max-width: 770px) {
     .container {
@@ -50,5 +47,5 @@ body{
     }
     .card {
         margin: 2% 0 !important;
-      }
+    }
 }  
