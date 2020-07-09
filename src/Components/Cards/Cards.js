@@ -2,7 +2,7 @@ import React from "react";
 //Import Material UI
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 // Import CountUp
-import CountUp from "react-countup";
+import CountUp from 'react-countup';
 //importing CSS
 import "../../App.css";
 
