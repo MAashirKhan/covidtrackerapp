@@ -1,6 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 //Importing Components
 import Header from './Components/header'
+import Footer from './Components/footer'
 import Cards from './Components/Cards/Cards'
 import Chart from './Components/Charts/Charts'
 import CountryPicker from './Components/CountryPicker/CountryPicker'
@@ -33,6 +34,7 @@ class App extends React.Component{
             <Cards data={data} />
             <CountryPicker handleCountryChange={this.handleCountryChange} />
             <Chart data={data} country={country}/>
+            <Footer />
         </div>
     );
 

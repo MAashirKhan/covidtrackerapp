@@ -2,7 +2,7 @@ import React from "react";
 //Import Material UI
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 // Import CountUp
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
 //importing CSS
 import "../../App.css";
 
@@ -14,11 +14,16 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   return (
     <div className="container">
       <Grid container justify="center">
-        <Grid item component={Card} xs={12} md={3} 
-        className="card"
-        style={{
-            borderRadius:5
-          }}>
+        <Grid
+          item
+          component={Card}
+          xs={12}
+          md={3}
+          className="card"
+          style={{
+            borderRadius: 5,
+          }}
+        >
           <CardContent className="infected">
             <Typography color="textSecondary" gutterBottom>
               Infected
@@ -44,9 +49,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           component={Card}
           xs={12}
           md={3}
-          className= "card"
+          className="card"
           style={{
-            borderRadius:5
+            borderRadius: 5,
           }}
         >
           <CardContent className="recovered">
@@ -76,7 +81,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           md={3}
           className="card"
           style={{
-            borderRadius:5
+            borderRadius: 5,
           }}
         >
           <CardContent className="deaths">
